@@ -10,10 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fd6f752-b70c-4a09-9d64-16b6d0ac191a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/GetSessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/SetSessionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/db/CategoryDAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/db/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/servlet/ServletCategoryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/category/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/DeleteCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/GetCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/GetSessionServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/MyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/SetCookieServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/SetSessionServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/luan/abc/javaweb35/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -62,14 +76,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.tomcat.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "session-2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -184,11 +198,16 @@
       <option name="presentableId" value="Default" />
       <updated>1716813182599</updated>
       <workItem from="1716813183517" duration="5062000" />
-      <workItem from="1716983586634" duration="4686000" />
+      <workItem from="1716983586634" duration="5099000" />
+      <workItem from="1716989054967" duration="1610000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
